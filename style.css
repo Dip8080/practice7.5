@@ -1,0 +1,69 @@
+
+.swimming{
+    /* position: absolute; */
+}
+.swimming div{
+    /* border: 1px solid red; */
+    width: 200px;
+}
+#boy{
+    position: relative;
+    top: 40px;
+    z-index: 3;
+
+}
+
+#ring{
+   position:relative;       /* ralative left a gap on his place after moving  */
+           /*absolute left no gap, another div will sit on his place*/
+           z-index: 2;
+}
+
+#water{
+    position: relative;
+    top: -80px;
+    z-index: 1;
+
+}
+table, th, td {
+    border:1px solid black;
+  }
+  th{
+      padding:10px;
+  }
+  td{
+      padding: 20px;
+  }
+  table{
+      background-color: rgb(2, 20, 36);
+      border-collapse: collapse;
+  }
+ 
+  td{
+      background-color: rgba(113, 113, 238, 0.26);
+  }
+  thead th{
+      color: yellow;
+  }
+  tbody td{
+      color: violet;
+  }
+  tfoot td{
+      color: #000;
+  }
+
+
+  /* fonawesome icon */
+.fontawesome{
+      display: flex;
+  }
+  .fontawesome div{
+      margin-left: 5%;
+  }
+  .fab{
+      font-size:80px;
+      
+  }
+  .fab:hover{
+      color: violet;
+  }
